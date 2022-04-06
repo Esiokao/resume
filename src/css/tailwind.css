@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC&family=Roboto&display=swap');
+
+
+
+body {
+  overflow-x: hidden;
+  font-family: 'Noto Sans TC', sans-serif;
+}
+
+p {
+  text-indent: 2ch;
+}
+
+div img {
+  object-fit: unset;
+}
+
+
