@@ -11,6 +11,21 @@ body {
   font-family: 'Noto Sans TC', sans-serif;
 }
 
+section:nth-of-type(n+2) {
+  position: relative;
+}
+
+section:nth-of-type(n+2)::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  opacity: .1;
+  background-image: url('/src/asset/texture.jpg');
+}
+
 p {
   text-indent: 2ch;
 }
