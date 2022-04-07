@@ -23,7 +23,7 @@ section:nth-of-type(n+2)::after {
   left: 0;
   bottom: 0;
   opacity: .1;
-  background-image: url('/src/asset/texture.jpg');
+  background-image: url('/resume/src/asset/texture.jpg');
 }
 
 p {
