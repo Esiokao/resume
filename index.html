@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="zh_Hant">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="/resume/dist/tailwind.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC&family=Roboto&display=swap" rel="stylesheet">
+    <script src="/resume/src/js/index.js" defer></script>
+    <title>esiokao_resume</title>
+  </head>
+  <body class="h-auto max-w-full relative">
+    <nav class="h-auto w-full flex justify-end bg-slate-100 py-3 px-4">
+      <a name="github" href="https://github.com/Esiokao?tab=repositories" target="_black" ref="noreferrer noopener">
+        <svg class="hover:text-black h-8 w-8 text-purple-500"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="2"  stroke-linecap="round"  stroke-linejoin="round">  <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22" /></svg>
+      </a>
+    </nav>
+    <main class="w-full flex justify-center flex-col overflow-x-hidden rounded">
+      <section class="w-full aspect-[1/1] flex flex-col-reverse flex-auto sm:aspect-[2/1] sm:flex-row-reverse bg-gradient-to-tl from-slate-200 to-gray-600 drop-shadow-lg">
+        <div class="w-full h-full p-2 flex  justify-center items-center flex-col space-y-2 sm:space-y-1 md:space-y-2">
+          <img src="/resume/src/asset/avatar-sm.jpg" alt="" class="inline-block h-20 w-20 rounded-full ring-2 ring-white">
+          <p><h3 class="text-2xl sm:text-3xl md:text-4xl lg:text-4xl" >esio kao</h3></p>
+          <p><h3 class="text-2xl sm:text-sm md:text-2xl lg:text-3xl">高培勛 </h3></p>
+          <p><h4 class="text-2xl sm:text-lg md:text-2xl lg:text-3xl">喜歡學習前後端的事物, 覺得javacript越來越有趣, 正在學習functional programming的道路之上。要成為一個厲害的developer。</h4></p>
+        </div>
+        <div class="hidden sm:w-full sm:flex justify-center items-center  sm:m-2 sm:rounded">
+          <div  class="sm:max-w-3xl sm:w-full sm:mx-auto sm:my-10">
+            <div  class="w-full h-11 rounded-t-lg bg-gray-200 flex justify-start items-center space-x-1.5 px-3">
+                <span  class="w-3 h-3 rounded-full bg-red-400"></span>
+                <span  class="w-3 h-3 rounded-full bg-yellow-400"></span>
+                <span  class="w-3 h-3 rounded-full bg-green-400"></span>
+            </div>
+            <div  class="bg-gray-100 border-t-0 w-full sm:h-70 md:h-72 lg:h-96 flex items-center justify-center ">
+              <img src="/resume/src/asset/code-js.png" alt="">
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="p-12 block lg:flex">
+        <div class="w-full p-12 ">
+          <div id="education" class="prose">
+            <h2 class="font-bold sm:text-xl uppercase tracking-wides border-green-700 border-l-8 pl-2">Education</h2>
+            <h3 class="font-semibold">普通科 General Subjects</h3>
+            <p>2014 - 2016 國立彰化高中 Chang Hua Senior High</p>
+            <h3 class="font-semibold">資訊管理學系 Imformation Management </h3>
+            <p>2016 - 2019 國立聯合大學 National United University</p>
+          </div>
+          <hr class="mt-8" />
+        </div>
+        <div class="w-full p-12">
+          <div id="experience" class="prose">
+            <h2 class="font-bold sm:text-xl uppercase tracking-wides border-green-700 border-l-8 pl-2">Experience</h2>
+            <h3>Project</h3>
+            <p>曾幫朋友寫過串接經濟部商業司opendata之api的查詢網頁, 透過建立proxy server來串接有CORS限制的api, 呈現於網頁之上。</p>
+            <p>也曾透過discord.js與linebot.js寫過相關的對話機器人, 透過nodejs來架設與實現其功能。 deploy於<a href="https://dashboard.heroku.com/apps/esio-discord-bot" target="_blank" rel="noreferrer noopener">Heroku</a>平台上。</p>
+            <span class="text-[#888]">Apr 2021 - &nbsp;May 2021</span>
+            <h3>迷克夏</h3>
+            <p>曾於迷克夏邊打工邊準備研究所考試</p>
+            <span class="text-[#888]">Nov 2020 - Mar 2021</span>
+          </div>
+          <hr class="mt-8 mb-12" />
+        </div>
+        <div class="w-full p-12">
+          <div id="skill" class="prose">
+            <h2 class="font-bold sm:text-xl uppercase tracking-wides border-green-700 border-l-8 pl-2">Skill</h2>
+            <h3>HTML</h3>
+            <h3>JavaScript</h3>
+            <h3>TypeScript</h3>
+            <h3>VueJS</h3>
+            <h3>CSS</h3>
+            <p>e.g. &nbsp; open-props Tailwindcss</p>
+            <h3>TESTING</h3>
+            <P>e.g. &nbsp; Jest</P>
+            <h3>Databases</h3>
+            <p>e.g. &nbsp; MongoDB</p>
+          </div>
+          <hr class="mt-8 mb-12" />
+        </div>
+        <div class="w-full p-12">
+          <div id="info" class="prose">
+            <h2 class="font-bold sm:text-xl uppercase tracking-wides border-green-700 border-l-8 pl-2">Info</h2>
+            <h3>Age</h3>
+            <p>24 (20th of June 1997)</p>
+            <h3>Mail</h3>
+            <p>esiokao@gmail.com</p>
+            <h3>Phone</h3>
+            <p>0977047925</p>
+          </div>
+          <hr class="mt-8 mb-12" />
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
